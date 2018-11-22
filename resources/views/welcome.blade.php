@@ -5,9 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--FACEBOOK-->
-        <meta property="og:title" content="Uno Y Veinte"/>
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="{{ url('/img/unoyveinte_red.png') }}" />
+        <meta name="description" content="Unoyveinte Web Site"> <!-- ˜150 chars -->
+        <meta property="og:title" content="Uno Y Veinte">
+        <meta property="og:description" content="Unoyveinte Web Site"> <!-- ˜300 chars -->
+        <meta property="og:site_name" content="Unoyveinte">
+        <meta property="og:locale" content="es_CL">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://unoyveinte.nicolasfredes.cl">
+        <meta property="og:image" content="{{ url('/img/unoyveinte_red.png') }}"> <!-- 200x200px - 1200x1200px -->
+
 
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
