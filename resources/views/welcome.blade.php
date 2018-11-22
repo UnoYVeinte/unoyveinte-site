@@ -12,7 +12,7 @@
         <meta property="og:locale" content="es_CL">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://unoyveinte.nicolasfredes.cl">
-        <meta property="og:image" content="{{ url('/img/unoyveinte_red.png') }}"> <!-- 200x200px - 1200x1200px -->
+        <meta property="og:image" content="{{ url('/img/unoyveinte_small_32x32.png') }}"> <!-- 200x200px - 1200x1200px -->
 
 
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
