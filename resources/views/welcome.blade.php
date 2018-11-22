@@ -7,12 +7,13 @@
         <!--FACEBOOK-->
         <meta name="description" content="Unoyveinte Web Site"> <!-- ˜150 chars -->
         <meta property="og:title" content="Uno Y Veinte">
-        <meta property="og:description" content="Unoyveinte Web Site"> <!-- ˜300 chars -->
+        <meta property="og:description" content="Unoyveinte official Web Site"> <!-- ˜300 chars -->
         <meta property="og:site_name" content="Unoyveinte">
         <meta property="og:locale" content="es_CL">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://unoyveinte.nicolasfredes.cl">
         <meta property="og:image" content="{{ url('/img/unoyveinte_small_32x32.png') }}"> <!-- 200x200px - 1200x1200px -->
+        <meta property="og:image:secure_url" content="https://s2.latercera.com/wp-content/uploads/2018/08/UNIVERSIDAD-DE-CHILE-1-700x450.jpg" />
 
 
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
@@ -62,16 +63,6 @@
                 font-size: 84px;
             }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -79,20 +70,6 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
             <div class="content">
                 <div class="title m-b-md">
                     <img src="/img/unoyveinte_red.png" width="70%">
