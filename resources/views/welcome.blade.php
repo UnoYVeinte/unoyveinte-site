@@ -4,6 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!--FACEBOOK-->
+        <meta property="og:title" content="Uno Y Veinte"/>
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="{{ url('/img/unoyveinte_red.png') }}" />
+
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
         <link rel="shortcut icon" type="image/png" href="/img/unoyveinte_small_32x32.png"/>
 
