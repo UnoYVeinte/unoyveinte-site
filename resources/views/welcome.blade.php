@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--FACEBOOK-->
-        <meta name="description" content="Unoyveinte Web Site"> <!-- ˜150 chars -->
+        <meta name="description" content="Uno Y Veinte official Web Site"> <!-- ˜150 chars -->
         <meta property="og:title" content="Uno Y Veinte">
         <meta property="og:description" content="Unoyveinte official Web Site"> <!-- ˜300 chars -->
         <meta property="og:site_name" content="Unoyveinte">
