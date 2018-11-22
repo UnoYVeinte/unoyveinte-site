@@ -84,7 +84,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="/img/unoyveinte_red.png" width="600">
+                    <img src="/img/unoyveinte_red.png" width="70%">
                 </div>
             </div>
         </div>
