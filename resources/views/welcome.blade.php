@@ -12,7 +12,7 @@
         <meta property="og:locale" content="es_CL">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://unoyveinte.nicolasfredes.cl">
-        <meta property="og:image" content="{{ url('/img/unoyveinte_small_32x32.png') }}"> <!-- 200x200px - 1200x1200px -->
+        <meta property="og:image" content="{{ url('/img/unoyveinte_small.png') }}"> <!-- 200x200px - 1200x1200px -->
         <meta property="og:image:secure_url" content="https://s2.latercera.com/wp-content/uploads/2018/08/UNIVERSIDAD-DE-CHILE-1-700x450.jpg" />
 
         <meta name="robots" content="NOODP">
